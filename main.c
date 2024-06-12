@@ -10,6 +10,7 @@
 
 void run_server();
 void run_client();
+void chat_with_server(int msgid, int shmid);  
 
 int main() {
     pid_t pid = fork();
